@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #363958;
+  --white: #ffffff;
+  --button: #427516;
+}
+
+/* BUTTON  */
+.buy,
+.buy:hover,
+.buy:focus {
+  text-decoration: none;
+  background: var(--button);
+  font-weight: 600;
+  color: var(--white);
+  padding: 0.75em 1.25em;
+}
+.buy:active {
+  transform: scale(1.1);
+}
